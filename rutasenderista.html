@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!DOCTYPE html>
+  <html>
+  <style>
+    /* estils pera la pàgina */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #336699;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin-top: 0;
+    }
+
+    main {
+      margin: 20px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    .icono{
+    max-width:10%;
+  max-height:10%;
+  position: relative;
+  animation-timing-function: linear;
+  animation: senserista 10s infinite;
+  margin: 0 auto;
+    display: flex;
+  justify-content: center;
+}
+@keyframes senserista {
+    to {width: 700px;}
+  0% {right:100px; left:100px;}
+  25% {left:100px; left:200px;}
+  50% {left:200px; left:800px;}
+  60% {left:800px; left: 600;}
+  100% {left:200px; left:400px;}
+}
+
+.icono2{
+  width: 50px;
+  height: 50px;
+  position: relative;
+  animation-timing-function: ease-out;
+  animation-duration: 2s;
+  animation-name: mover;
+  animation-iteration-count: infinite;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+@keyframes mover {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.icono3{
+  width: 50px;
+  height: 50px;
+  position: relative;
+  animation-timing-function: ease-out;
+  animation-duration: 2s;
+  animation-name: moure;
+  animation-iteration-count: infinite;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+@keyframes moure {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+  </style>
+  
+</head>
+
+
+<body>
+  <header>
+    <h1>Marxa senderista poble de Clariana de Cardener</h1>
+  </header>
+  <div><img class="icono" src="caminante.png" alt=""></div>
+
+  <div class="px-4 py-5 my-5 text-center">
+    <img class="d-block mx-auto mb-4" src="pont.png" alt="" width="900" height="600">
+  </div>
+  <main>
+    <header>
+      
+      <h1>Detalls i itineraris de la ruta</h1>
+    </header>
+    <div><img class="icono2" src="ruta.png" alt=""></div>
+
+    
+    <p>El proper 24 i 25 de juny a les 9 del matí, ornanitzem una emocionant marxa senderista pels paratges del poble de
+      Clariana de Cardener. La marxa tindrà una durada aproximada de 6 hores, recorrerem uns itineraris de 16 km i 25 km
+      de pura naturalesa.
+    </p>
+    <p>No importa si ets principiant o un senderista experimentat, tots són benvinguts! A més, hi haurà diversos punts
+      de descans i parades per a prendre fotografies i gaudir de les vistes panoràmiques.</p>
+    <h3>Detalls de la marxa 16 km</h3>
+    <ul>
+      <li><strong>Data:</strong> 24 de juny</li>
+      <li><strong>Hora d'inici:</strong> 9:00 am</li>
+      <li><strong>Punt de trobada:</strong> Plaça de la Casa de la Vila</li>
+      <li><strong>Duración:</strong> 4 hores</li>
+      <li><strong>Distancia:</strong> 16 km</li>
+      <br>
+      <br>
+      <li><strong>Preu de la incripció 12 euros, en aquest preu s'inclu el dinar de germanor</li>
+      
+      <br>
+        <li><strong>El dinar tindra lloc a la mateixa Plaça de la Vila a les 14.30 de la tarda</li>
+        <br>
+
+          <li><strong>Per veure el menú del dinar i ems plats premeu al seguent enllaç</li>
+        </ul>
+      </ul>
+      
+
+    <form action="#" method="post">
+      <a href="menu.html">Vull veure el menú</a>
+    </form>
+    <div><img class="icono3" src="menu.png" alt=""></div>
+    <h2>Ruta curta 16 km</h2>
+
+    <body style="text-align:center;">
+      <img src="clariana.png" width="800" height="700">
+
+    </body>
+    <br>
+    <br>
+
+
+
+    <a href="https://www.google.com/maps/d/u/0/edit?mid=1APZnc2EPEK7QcCKH8uBkA5KtM9GD7gQ&usp=sharing">Obrir ruta en
+      Google Maps</a>
+
+    <h3>Detalls de la marxa 25 km</h3>
+
+    <ul>
+      <li><strong>Data:</strong> 25 de juny</li>
+      <li><strong>Hora de inicio:</strong>9:00 am</li>
+      <li><strong>Punto de trobada:</strong>Plaça de la Casa de la Vila</li>
+      <li><strong>Duración:</strong> 6 hores</li>
+      <li><strong>Distancia:</strong>25 km</li>
+    </ul>
+
+    <h2>Ruta llarga 25 km</h2>
+
+    <img src="clariana2.png" width="800" height="700">
+
+</body>
+<br>
+<br>
+
+<a href="https://www.google.com/maps/d/u/0/embed?mid=1dKe2-GxeNe-y2nEuxzedE6GzSUdCytI&ehbc=2E312F">Obrir ruta en Google
+  Maps</a>
+
+
+  <h2>Imatges dels paratges a visitar</h2>
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="imatge1.jpg" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="imatge2.jpg" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="imatge7.jpg" class="d-block w-100">
+        <div class="carousel-item">
+          <img src="imatge4.jpg" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="imatge5.jpg" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="imatge6.jpg" class="d-block w-100">
+
+
+
+
+
+      </div>
+            
+            </div>
+          </div>
+
+
+
+
+
+  
+
+<h3>Com puc participar?</h3>
+<p>Per participar en la marxa, simplemente has d'inscriure't al seguent formulari:</p>
+<form action="#" method="post">
+  <a href="formulari.html">Inscriu-me</a>
+</form>
+<p>També pots contactar-nos directament al teléfono 654475584 o per correu electrònic</p>
+<a href="mailto:nombredeusuario@dominio.com">Envia correu electrónic</a>
+
+<h3>No t'ho pots perdre!</h3>
+<p>T'esperem el pròxim 24 i 25 de juny

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Menu del dinar de germanor</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f8f8f8;
+			color: #333;
+			text-align: center;
+		}
+		h1 {
+			color: #c55;
+			text-align: center;
+		}
+		h2 {
+			color: #555;
+			font-size: 28px;
+			margin-top: 30px;
+			margin-bottom: 20px;
+			text-align: center;
+		}
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+		li {
+			padding: 10px;
+			margin-bottom: 5px;
+			background-color: #fff;
+			border-radius: 5px;
+			box-shadow: 0 2px 2px rgba(0,0,0,0.3);
+			text-align: center;
+			width: 300px;
+			margin-right: 20px;
+			margin-left: 20px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+		li:hover {
+			background-color: #eee;
+			cursor: pointer;
+		}
+		h3 {
+			color: #555;
+			font-size: 22px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			text-align: center;
+		}
+		p {
+			color: #333;
+			font-size: 18px;
+			margin-top: 5px;
+			margin-bottom: 5px;
+			text-align: center;
+		}
+		img {
+			display: none;
+			margin: 0 auto;
+			max-width: 300px;
+			max-height: 300px;
+			border-radius: 5px;
+			box-shadow: 0 2px 2px rgba(0,0,0,0.3);
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+	</style>
+	<script>
+		function mostrarImagen(plato) {
+			var imagen = document.getElementById(plato + '-img');
+			imagen.style.display = 'block';
+		}
+	</script>
+</head>
+<body>
+	<h1>Menu del dinar de germanor</h1>
+	<h2>Detall dels plats</h2>
+	<ul>
+		<li onclick="mostrarImagen('ensalada')">Ensalada Catalana
+			<img id="ensalada-img" src="ensalada1.jpg" alt="Ensalada catalana">
+		</li>
+		<li onclick="mostrarImagen('paella')">Paella mixta
+			<img id="paella-img" src="paella.jpg" alt="Paella">
+		</li>
+		<li onclick="mostrarImagen('entrecot')">Entrecot de vedella
+			<img id="entrecot-img" src="entrecot.jpg" alt="Ensalada catalana">
+		</li>
+    </body>
